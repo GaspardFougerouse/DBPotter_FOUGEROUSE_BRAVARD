@@ -1,0 +1,86 @@
+:root {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+  background-image: linear-gradient(120deg, #00ddff,  #9848e3);
+
+  /* Couleurs personnalisées */
+  --header-background: #57e48b; /* Couleur d'arrière-plan pour l'en-tête */
+  --link-color: #aa00ff; /* Couleur des liens */
+  --link-hover-color: #5f0a76; /* Couleur des liens au survol */
+}
+
+a {
+  font-weight: 500;
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+html {
+  margin: 0;
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* Ombre portée */
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #007bff; /* Couleur de fond pour les boutons */
+  color: #ffffff; /* Couleur du texte pour les boutons */
+  cursor: pointer;
+  transition: background-color 0.25s, color 0.25s;
+}
+
+button:hover {
+  background-color: #0056b3; /* Couleur de fond au survol */
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #f0f0f0; /* Couleur du texte pour le mode sombre */
+    background-color: #242424; /* Couleur de fond pour le mode sombre */
+    --header-background: #bdb6b6; /* Couleur d'arrière-plan pour l'en-tête en mode sombre */
+    --link-color: #646cff; /* Couleur des liens en mode sombre */
+    --link-hover-color: #535bf2; /* Couleur des liens au survol en mode sombre */
+  }
+
+  a:hover {
+    color: var(--link-hover-color);
+  }
+
+  button {
+    background-color: #1a1a1a; /* Couleur de fond pour les boutons en mode sombre */
+  }
+
+  button:hover {
+    background-color: #535bf2; /* Couleur de fond au survol en mode sombre */
+  }
+}
