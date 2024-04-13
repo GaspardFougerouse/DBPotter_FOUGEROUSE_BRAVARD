@@ -10,9 +10,9 @@ const getImageBook = (response) => {
 
 const getImage = (response, title) => {
   if (title === 'Personnages') {
-    return response.data.data[2].attributes.image; // Récupère le troisième élément
+    return response.data.data[2].attributes.image;
   } else {
-    return response.data.data[0].attributes.image; // Récupère le premier élément par défaut
+    return response.data.data[0].attributes.image; 
   }
 }
 

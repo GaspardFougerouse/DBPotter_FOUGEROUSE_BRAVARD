@@ -8,8 +8,6 @@ const liens = ref([
   { title: 'Personnages', route: '/Personnages' }
 ])
 
-// const backgroundImg = new URL('DefaultImg/castleBackground.jpg', import.meta.url).href;
-
 const accueil = ref({ title: 'Accueil', route: '/' })
 </script>
 

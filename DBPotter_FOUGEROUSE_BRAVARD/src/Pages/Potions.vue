@@ -122,7 +122,7 @@ onMounted(fetchData);
 }
 
 h1 {
-  color: #4b0082; /* Changement de la couleur du titre */
+  color: #4b0082; 
   font-size: 28px;
   margin-bottom: 20px;
 }
@@ -138,7 +138,7 @@ h1 {
 
 .search-bar button {
   padding: 8px 16px;
-  background-color: #4b0082; /* Changement de la couleur du bouton de recherche */
+  background-color: #4b0082; 
   color: white;
   border: none;
   border-radius: 4px;
@@ -189,7 +189,7 @@ h1 {
 
 .btnChangePage {
   padding: 8px 16px;
-  background-color: #4b0082; /* Changement de la couleur des boutons de pagination */
+  background-color: #4b0082; 
   color: white;
   border: none;
   border-radius: 4px;

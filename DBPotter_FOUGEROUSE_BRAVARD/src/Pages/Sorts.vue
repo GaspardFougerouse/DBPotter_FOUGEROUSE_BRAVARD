@@ -17,7 +17,6 @@ const fetchData = async () => {
     list.value = await getSorts(`?page[size]=${itemsPerPage}&page[number]=${pageNumber.value}${query}`);
     erreur.value = 0;
 
-    // Revient en haut de la page après chaque recherche ou changement de page
     window.scrollTo({ top: 0, behavior: 'smooth' });
   } catch (error) {
     erreur.value = error.response.status;
