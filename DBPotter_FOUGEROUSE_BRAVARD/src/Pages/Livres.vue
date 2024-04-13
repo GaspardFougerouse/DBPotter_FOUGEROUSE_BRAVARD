@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import { getLivres } from '../controllers/livresController';
-import LivreComponent from '../components/livreComponent.vue'; // Assurez-vous de l'importer correctement
+import LivreComponent from '../components/livreComponent.vue';
 
 const list = ref([]);
 const erreur = ref(0);
