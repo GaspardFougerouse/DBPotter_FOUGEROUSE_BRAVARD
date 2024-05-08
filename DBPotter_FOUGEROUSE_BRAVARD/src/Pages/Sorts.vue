@@ -7,7 +7,7 @@ const pageNumber = ref(1);
 const totalItems = ref(315);
 const totalPages = ref(Math.ceil(totalItems.value / itemsPerPage.value));
 const erreur = ref(0);
-const defaultImageURL = new URL('../DefaultImg/sort.jpg', import.meta.url).href;
+const defaultImageURL = new URL('../DefautImage/sort.jpg', import.meta.url).href;
 const searchQuery = ref('');
 const errorMessage = ref("");
 

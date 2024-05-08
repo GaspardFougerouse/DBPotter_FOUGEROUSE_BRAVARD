@@ -7,7 +7,7 @@ const pageNumber = ref(1)
 const erreur = ref(0);
 const totalItems = ref(168);
 const totalPages = ref(Math.ceil(totalItems.value / itemsPerPage.value));
-const defaultImageURL = new URL('../DefaultImg/potion.jpg', import.meta.url).href;
+const defaultImageURL = new URL('../DefautImage/potion.jpg', import.meta.url).href;
 const searchQuery = ref('');
 const errorMessage = ref("");
 
